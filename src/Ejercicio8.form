@@ -124,6 +124,9 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JTextField" name="txtMontoTotal">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMontoTotalKeyTyped"/>
           </Events>
